@@ -7,10 +7,9 @@ if [ $# -eq 0 ]; then
     exit 1
 fi
 
-if ! [[ "$1" =~ ^[0-9]+$ ]]
-    then
-        echo "Sorry integers only"
-        exit 1
+if ! [[ "$1" =~ ^[0-9]+$ ]]; then
+    echo "Sorry integers only"
+    exit 1
 fi
 
 
