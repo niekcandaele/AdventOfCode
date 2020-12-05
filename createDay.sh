@@ -18,5 +18,5 @@ DAY="$1"
 
 mkdir $DAY
 touch $DAY/challenge.md
-touch $DAY/index.js
-touch $DAY/input.js
+touch $DAY/index.py
+touch $DAY/input.txt
