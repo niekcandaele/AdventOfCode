@@ -16,7 +16,7 @@ fi
 DAY="$1"
 
 
-mkdir $DAY
-touch $DAY/challenge.md
-touch $DAY/index.py
-touch $DAY/input.txt
+mkdir challenges/$DAY
+touch challenges/$DAY/challenge.md
+touch challenges/$DAY/index.py
+touch challenges/$DAY/input.txt
