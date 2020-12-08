@@ -1,6 +1,9 @@
+
+# Advent of Code 2020
+
 https://adventofcode.com/2020
 
-Practicing stuff...
+I use this repo to learn some Python by practicing. I started off with Javascript but by day 4 I realized I was not learning anything new, so I switched to a language I hadn't worked with too much, Python. I make it a point to not go back to past days and refactor so I can see the progress I made throughout the month. eg, on day 8 I added template files with support for tests. From this day on, I switched from just running the files to TDD.
 
 
 ## My usage
@@ -18,3 +21,4 @@ python3 -m unittest challenges/0/test.py
 # Or, the poor mans watch mode for TDD:
 watch python3 -m unittest challenges/0/test.py
 ```
+
