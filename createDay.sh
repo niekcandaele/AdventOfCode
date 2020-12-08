@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# yes, I'm seriously too lazy to create 3 files by hand
+# yes, I'm seriously too lazy to create these files by hand
 
 if [ $# -eq 0 ]; then
     echo "No arguments supplied"
@@ -17,6 +17,4 @@ DAY="$1"
 
 
 mkdir challenges/$DAY
-touch challenges/$DAY/challenge.md
-touch challenges/$DAY/index.py
-touch challenges/$DAY/input.txt
+cp -r challenges/0/* challenges/$DAY
