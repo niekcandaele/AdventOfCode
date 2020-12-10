@@ -8,9 +8,10 @@ I use this repo to learn some Python by practicing. I started off with Javascrip
 
 ## My usage
 
-When starting a new challenge, run the `createDay.sh` script to copy the challenge templates to a new folder.
+When starting a new challenge, run the `createDay.sh` script to copy the challenge template to a new folder.
 
-From the AoC site, get the real input and add it to input.txt
+For the script to fetch your input automatically, make sure you have a file called `.cookies` that contains your AoC session cookie (Should look something like `session=123456789`). otherwise, from the AoC site, get the real input and add it to input.txt
+
 Every challenge has had a smaller input with expected outcomes, use these for smallinput.txt and in the tests.
 
 To run the tests:
