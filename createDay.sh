@@ -8,7 +8,7 @@ YEAR=`date +%Y`
 get_input() {
     # Credit: https://github.com/Bruception/advent-of-code-2020/blob/master/get_input.sh
     cookies=`cat .cookies`
-    printf '%s' "`curl -H "cookie: $cookies" https://adventofcode.com/$YEAR/day/$DAY/input`" > challenges/$DAY/input.txt
+    printf '%s' "`curl -H "cookie: $cookies" https://adventofcode.com/$YEAR/day/$DAY/input`" > challenges/$YEAR/$DAY/input.txt
 }
 
 if [ $# -eq 0 ]; then
